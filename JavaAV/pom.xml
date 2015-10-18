@@ -12,7 +12,7 @@
 
     <groupId>com.github.hoary.javaav</groupId>
     <artifactId>JavaAV</artifactId>
-    <version>0.5</version>
+    <version>0.6</version>
 
     <packaging>jar</packaging>
 
@@ -82,7 +82,7 @@
         <dependency>
             <groupId>org.bytedeco</groupId>
             <artifactId>javacv</artifactId>
-            <version>0.8</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
