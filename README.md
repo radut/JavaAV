@@ -1,3 +1,5 @@
+Forked Version of https://github.com/hoary/JavaAV , with javacv version updated, and released to a maven(check maven library part).
+
 # JavaAV
 
 The aim of this project is to provide an easy to use interface to [FFmpeg]. This project is not command line based like
@@ -65,10 +67,15 @@ Below is the list of some basic examples. All examples can be found in the proje
 For those who use Maven may include this project as dependency:
 
 ```xml
+<repository>
+    <id>omentrack.pampam.tv</id>
+    <url>http://nexus.omentrack.pampam.tv/content/repositories/public/</url>
+</repository>
+
 <dependency>
-	<groupId>com.github.hoary</groupId>
-	<artifactId>JavaAV</artifactId>
-	<version>0.5</version>
+    <groupId>com.github.hoary.javaav</groupId>
+    <artifactId>JavaAV</artifactId>
+    <version>0.5</version>
 </dependency>
 ```
 
